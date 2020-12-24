@@ -1,1 +1,83 @@
-@import url(normalize.css);
+@import url(reset.css);
+
+body {
+    font-family: 'Helvetica', sans-serif;
+}
+
+.header, .footer {
+    background-color: #e5e000;
+    color: #fff;
+}
+
+.header-heading, .header-navigation, .content, .footer {
+    padding-left: 80px;
+    padding-right: 80px;
+}
+.header-heading h1 {
+    line-height: 200px;
+    font-size: 50px;
+    margin: 0;
+}
+
+.header-hero-image {
+    height: 1080px;
+    background-image: url("../img/hero.png");
+    background-size: cover;
+}
+
+.header-navigation ul {
+    margin: 0;
+}
+
+.header-navigation li {
+    list-style-type: none;
+    text-decoration: none;
+    display: inline;
+}
+
+.header-navigation a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 100px;
+    text-transform: uppercase;
+}
+
+.header-navigation li:nth-child(n+2) a:before {
+    content: " / ";
+}
+
+.content .content-container {
+    padding-top: 110px;
+}
+
+.content h2, .content p {
+    font-size: 50px;
+    line-height: 57.5px;
+    margin-bottom: 100px;
+}
+
+.content h2 {
+    font-weight: 700;
+}
+
+.content p {
+    font-weight: 300;
+}
+
+.footer-container {
+    background-image: url("../img/logo.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position: 0 80px;
+    text-align: right;
+}
+
+.footer-container a {
+    color: #fff;
+    font-size: 50px;
+    text-decoration: none;
+    text-align: right;
+    line-height: 200px;
+}

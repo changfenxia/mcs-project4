@@ -9,10 +9,16 @@ body {
     color: #fff;
 }
 
-.header-heading, .header-navigation, .content, .footer {
+.styled-link {
+    color: #fff;
+    text-decoration: none;
+}
+
+.lr-padding {
     padding-left: 80px;
     padding-right: 80px;
 }
+
 .header-heading h1 {
     line-height: 200px;
     font-size: 50px;
@@ -36,8 +42,6 @@ body {
 }
 
 .header-navigation a {
-    color: #fff;
-    text-decoration: none;
     font-size: 25px;
     font-weight: bold;
     line-height: 100px;
@@ -75,9 +79,7 @@ body {
 }
 
 .footer-container a {
-    color: #fff;
     font-size: 50px;
-    text-decoration: none;
     text-align: right;
     line-height: 200px;
 }
